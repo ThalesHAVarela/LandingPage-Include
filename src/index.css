@@ -12,19 +12,49 @@ h7{
   color: #ff8c00;
 }
 
-.navbar-links{
-  list-style: none;
-}
-
 .infolist{
   color: #ff8c00;
   width: 500px;
 }
 
-.infolist li , h2{
+.infolist li {
   margin-bottom: 10px;
   word-wrap: break-word;
+  text-shadow: 20px 20px 50px #ffffff;
 }
+
+.infolist h2{
+  margin-bottom: 20px;
+}
+
+#include1{
+  background-image: url('images/fotoinclude2.png');
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#divinclude1{
+  margin-left: 30px;
+}
+
+a:link {
+  color: purple; /* Cor padrão para links não visitados */
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+a:visited {
+  color: purple; /* Cor para links visitados */
+}
+
+a:hover {
+  color: purple; /* Cor ao passar o mouse */
+  text-decoration: none; /* Adiciona sublinhado ao passar o mouse */
+}
+
+a:active {
+  color: blueviolet; /* Cor ao clicar no link */
+}
+
 
 /* Navbar.css */
 .navbar {
@@ -33,13 +63,17 @@ h7{
   align-items: center;
   padding: 1rem 2rem;
   background-color: black;
-  color: #ff8c00;
+  
 }
 
 .navbar-logo {
   font-size: 1.5rem;
   font-weight: bold;
   background-color:black ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
 .navbar-links {
@@ -69,4 +103,11 @@ h7{
     display: flex;
   }
 }
+
+.navbar img {
+  height: 60px; /* Define a altura */
+  width: auto;  /* Ajusta a largura proporcionalmente */
+  margin-left: 10px; /* Espaço entre a imagem e o texto */
+}
+
 
