@@ -8,7 +8,7 @@ body{
   background-color:black;
 }
 
-h7{
+h2, h3{
   color: #ff8c00;
 }
 
@@ -37,13 +37,69 @@ h7{
   margin-left: 30px;
 }
 
-a:link {
-  color: purple; /* Cor padrão para links não visitados */
-  text-decoration: none; /* Remove o sublinhado */
+#divcandidatos1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 15px;
+  text-shadow: 20px 20px 50px #ffffff;
 }
 
-a:visited {
-  color: purple; /* Cor para links visitados */
+#divcandidatos1 h1{
+  color: #ff8c00;
+}
+
+#divcandidatos1 h2{
+  color: #ffffff;
+}
+
+#divcandidatos2{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  text-shadow: 20px 20px 50px #ffffff;
+}
+
+#divcandidatos2 h2{
+  margin-bottom: 20px;
+  text-shadow: 20px 20px 50px #ffffff;
+}
+
+#ulcandidatos{
+  color: #ff8c00;
+  text-shadow: 20px 20px 50px #ffffff;
+  
+}
+
+#sobre-mim-box{
+  display: flex;
+  justify-content: space-evenly;
+  text-shadow: 20px 20px 50px #ffffff;
+}
+
+.sobre-mim-box2{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-shadow: 20px 20px 50px #ffffff;
+}
+
+.sobre-mim-list{
+  width: 350px;
+  color: #ff8c00;
+  text-shadow: 20px 20px 50px #ffffff;
+}
+
+.sobre-mim-list li{
+  word-wrap: break-word;
+  text-shadow: 20px 20px 50px #ffffff;
+}
+
+a {
+  color: white; /* Cor padrão para links não visitados */
+  text-decoration: none; /* Remove o sublinhado */
+  text-shadow: 20px 20px 50px #ffffff;
 }
 
 a:hover {
@@ -52,9 +108,22 @@ a:hover {
 }
 
 a:active {
-  color: blueviolet; /* Cor ao clicar no link */
+  color:purple; /* Cor ao clicar no link */
 }
 
+#divfooter{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 15px;
+}
+
+#divfooter h2,h3{
+  color: white;
+}
 
 /* Navbar.css */
 .navbar {
